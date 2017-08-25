@@ -1,0 +1,20 @@
+declared-services:
+  Conversation_KEEP:
+    label: conversation
+    plan: free
+  Natural Language Understanding-h3:
+    label: natural-language-understanding
+    plan: free
+  Object Storage-01:
+    label: Object-Storage
+    plan: free	
+applications:
+- services:
+   - Conversation_KEEP
+   - Natural Language Understanding-h3
+   - Object Storage-01
+  path: .
+  command: python ./run.py  
+  memory: 128M
+  name: TechnologyNewsBot
+  no-route: true

@@ -1,0 +1,10 @@
+cf-deployment-tracker==1.0.4
+cloudant==2.4.0
+python-dotenv==0.6.4
+slackclient==1.0.5
+pandas==0.19.2
+retinasdk==1.0.0
+boxsdk==1.5.3
+watson-developer-cloud>=0.26.0
+python-keystoneclient==3.10.0
+python-swiftclient==3.3.0
