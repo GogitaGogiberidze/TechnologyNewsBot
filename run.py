@@ -85,6 +85,9 @@ def scrape_gtm(url):
 def new_func_fromPedro():
    pass
                 
+def yet_another():
+   pass
+
 def init_connections():
     ''' Function to get credentials and initiate all connections 
     return (workspace_id, bot_id, conversation_client, slack_client) '''
