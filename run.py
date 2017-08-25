@@ -84,6 +84,8 @@ def scrape_gtm(url):
 
 def gg_func():
     return 0
+def gg_func1():
+    return
 
                 
 def init_connections():
