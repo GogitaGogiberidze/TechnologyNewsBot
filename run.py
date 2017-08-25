@@ -81,6 +81,9 @@ def get_vcap_credentials(vcap_env, service):
 def scrape_gtm(url):
    # This function scrapes url and return a list of urls
    pass
+
+def new_func_fromPedro():
+   pass
                 
 def init_connections():
     ''' Function to get credentials and initiate all connections 
